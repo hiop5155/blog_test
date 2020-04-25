@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my blog test</title>
+</head>
+<body>
+	<h1>welcome to my first django framework test</h1>
+	<hr>
+	{% for post in posts %}
+	<p style="font-family: 微軟正黑體;font-size:14pt;font-weight: :bold"><a href="/post/{{ post.slug }}">{{ post.title }}</a>
+	<!-- </p>
+	<p style="font-family: 微軟正黑體;fontsize:10pt;letter-spacing:1pt;">
+		{{ post.body }}
+	</p> -->
+	{% endfor %}
+	<hr>
+	<h3>now time: {{ now }}</h3>
+</body>
+</html>
