@@ -15,7 +15,7 @@ $ pip install virtualenvwrapper-win
  workon myproject
 ```
 
-## Install Django in this env
+## Install Django in this virtual  env
 
 ```bash
 (myproject) > pip install Django
