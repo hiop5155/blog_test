@@ -1,6 +1,4 @@
 # Django introduction
 
-{% file src=".gitbook/assets/untitled-1.png" %}
-
-
+![](.gitbook/assets/untitled-1.png)
 
