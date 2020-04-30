@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Django Install](README.md)
+* [Git introduction](git-introduction.md)
 
