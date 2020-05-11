@@ -23,16 +23,35 @@
 
 	<div class='container-fluid'>
 		{% include 'header.html' %}
-		<div class='panel panel-default'>
-			<div class='panel-heading'>
-				{% block headmessage %} {% endblock %}
+		<div class='row'>
+			<div class='col-sm-4 col-md-4'>
+				<div class='panel panel-default'>
+					<div class='panel-heading'>
+						<h3>MENU</h3>
+					</div>
+			<div class='panel-body'>
+				<div class='list-group'>
+					<a href="/" class="list-group-item">Home</a>
+					<a href="http://tar.so/news" class='list-group-item'>即時新聞</a>
+					<a href="http://drho.tw/news" class='list-group-item'>電視新聞</a>
+				</div>
+			
+			<script type="text/javaScript" src="http://feedjit.com/serve/?vv=1515&amp;dd=0&amp;pid=0&amp;proid=0&amp;bc=FFFFFF&amp;tc=000000&amp;brd1=012B6B&amp;lnk=135D9E&amp;hc=FFFFFF&amp;hfc=2853A8&amp;btn=C99700&amp;ww=190&amp;wne=6&amp;serfs=0"></script><noscript><a href="http://feedjit.com/">Live Traffic Stats</a></noscript>
+					</div>
+				</div>
 			</div>
-
-			<div class="panel-body">
-				{% block content %} {% endblock %}
-			</div>
-			<div class="panel-footer">
-			{% include 'footer.html' %}
+			<div class='col-sm-8 col-md-8'>
+				<div class='panel panel-default'>
+					<div class='panel-heading'>
+						{% block headmessage %} {% endblock %}
+					</div>
+					<div class="panel-body">
+						{% block content %} {% endblock %}
+					</div>
+					<div class="panel-footer">
+						{% include 'footer.html' %}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
